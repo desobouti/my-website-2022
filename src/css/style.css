@@ -10,6 +10,7 @@ body {
   background-color: #f4f1de;
 }
 body h1, body h3 {
+  font-weight: 500;
   color: #3d405b;
 }
 body .r-header {
@@ -23,6 +24,7 @@ body .r-main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 0 16px;
 }
 body .r-main .horizontal-line {
   width: 3rem;
