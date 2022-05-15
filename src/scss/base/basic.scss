@@ -1,0 +1,38 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: $f-family;
+	font-size: 1rem;
+	font-weight: $f-medium;
+	background-color: #f4f1de; 
+
+	h1, h3 {
+		color: #3d405b;
+	}
+
+	.r-header {
+		margin: 0 16px;
+	}
+
+	.r-main {
+		width: 100%;
+		height: calc(100vh - 5rem);
+		display: flex;
+		flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .horizontal-line {
+    	width: 3rem;
+    	color: #3d405b;
+    }
+    .icon-girl {
+    	width: 2.5rem;
+    	height: 2.5rem;
+    	margin-bottom: -0.6rem;
+    }
+	}
+}
