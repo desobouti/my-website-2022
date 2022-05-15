@@ -18,14 +18,17 @@ body {
 	}
 
 	.r-main {
-		width: calc(100vw - 5rem);
+		width: 100%;
 		height: calc(100vh - 5rem);
 		display: flex;
 		flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 16px;
+
+    h1 {
+    	padding: 0 1rem;
+    }
 
     .horizontal-line {
     	width: 3rem;
