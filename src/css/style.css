@@ -17,7 +17,7 @@ body .r-header {
   margin: 0 16px;
 }
 body .r-main {
-  width: 100%;
+  width: calc(100vw - 5rem);
   height: calc(100vh - 5rem);
   display: flex;
   flex-direction: column;
