@@ -9,11 +9,15 @@ body {
   font-weight: 500;
   background-color: #f4f1de;
 }
-body h1, body h3 {
+body h1, body h3, body p {
   font-weight: 500;
   color: #3d405b;
 }
 body .r-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 16px;
 }
 body .r-main {
